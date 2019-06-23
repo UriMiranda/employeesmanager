@@ -1,8 +1,8 @@
 from django import forms
 from .models import Departament, Employee
-from .validators import email_is_valid,email_exists
+from .validators import email_is_valid
 
 class EmployeeForm(forms.Form):
     name = forms.TextInput()
-    email = forms.EmailField(validators=[email_is_valid, email_exists])
+    email = forms.EmailField(validators=[email_is_valid])
     departament = forms.ModelChoiceField(queryset=Departament.objects.all(), to_field_name="name")
