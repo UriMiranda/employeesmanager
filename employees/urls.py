@@ -10,5 +10,7 @@ router.register('', views.EmployeeList)
 
 
 urlpatterns = [
-    path('', include(router.urls))
+    path('', include(router.urls)),
+    path('store', views.add_employees, name='store'),
+    path('delete/<int:user_id>/', views.remove_employees, name='delete')
 ]
