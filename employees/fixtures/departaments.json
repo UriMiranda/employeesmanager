@@ -1,0 +1,30 @@
+[
+    { 
+        "model": "employees.departament", 
+        "pk": 1, 
+        "fields": { 
+            "name": "T.I." 
+        } 
+    },
+    {
+        "model": "employees.departament", 
+        "pk": 2, 
+        "fields": { 
+            "name": "Financeiro" 
+        } 
+    },
+    {
+        "model": "employees.departament", 
+        "pk": 3, 
+        "fields": { 
+            "name": "Vendas" 
+        } 
+    },
+    {
+        "model": "employees.departament", 
+        "pk": 4, 
+        "fields": { 
+            "name": "RH" 
+        } 
+    }
+]
