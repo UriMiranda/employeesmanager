@@ -4,7 +4,7 @@
 | Requirement | Version |
 |-------------|---------|
 | Python      | > 3.*   |
-| Django      | 2.*.*   |
+| Django      | 2.2.*   |
 
 ## Getting Started
 
