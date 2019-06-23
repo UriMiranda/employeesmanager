@@ -37,8 +37,5 @@ class Employee(models.Model):
     def __str__(self):
         return self.name
 
-    def save(self, *args, **kwargs):
-
+    def clean(self):
         self.email_exists()
-
-        super(Employee, self).save(*args, **kwargs)

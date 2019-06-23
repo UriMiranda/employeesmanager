@@ -4,7 +4,4 @@ from django.core.validators import validate_email
 
 
 def email_is_valid(value):
-    if not validate_email(value):
-        raise ValidationError(
-            _('%(value)s is not a valid e-mail'), params={'value': value})
-
+    validate_email(value)
