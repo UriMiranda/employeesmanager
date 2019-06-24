@@ -10,7 +10,7 @@
 
 First clone this repository:  
 ``` bash
-    git clone && cd employeesmanger/
+    git clone https://github.com/UriMiranda/employeesmanager.git && cd employeesmanger/
 ```
 
 Then install project requirements:  
