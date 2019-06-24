@@ -35,7 +35,8 @@ Run server:
     python3 manage.py runserver
 ```
 
-Access admin: [http://loacalhost:8000/admin](http://loacalhost:8000/admin)
+Access admin: [http://loacalhost:8000/admin](http://loacalhost:8000/admin)  
+
 | User | Password|
 |------|---------|
 |admin |  test   |
@@ -47,7 +48,7 @@ Access admin: [http://loacalhost:8000/admin](http://loacalhost:8000/admin)
 |-------------|---|
 | T.I.        | 1 |
 | Financeiro  | 2 |
-| Vandas      | 3 |
+| Vendas      | 3 |
 | RH          | 4 |
 
 Listing all employees
