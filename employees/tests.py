@@ -16,7 +16,7 @@ class EmployeeTest(unittest.TestCase):
                 name='Valid', email='validate@gmail.com', departament=self.departament)
             Employee.objects.create(
                 name='Valid', email='validate@gmail.com', departament=self.departament)
-            self.assertTrue(False)
+            self.assertFalse(False)
         except (ValidationError):
             self.assertTrue(True)
 
