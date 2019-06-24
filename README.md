@@ -10,29 +10,29 @@
 
 First clone this repository:  
 ``` bash
-    git clone https://github.com/UriMiranda/employeesmanager.git && cd employeesmanger/
+git clone https://github.com/UriMiranda/employeesmanager.git && cd employeesmanger/
 ```
 
 Then install project requirements:  
 ``` bash
-    pip3 install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 Run migrations:
 ``` bash
-    python3 manage.py migrate
+python3 manage.py migrate
 ```
 
 Load departament and admin data:
 ``` bash
-    python3 manage.py loaddata departaments admin --database=default
+python3 manage.py loaddata departaments admin --database=default
 ```
 
 ## Run project 
 
 Run server:
 ``` bash
-    python3 manage.py runserver
+python3 manage.py runserver
 ```
 
 Access admin: [http://loacalhost:8000/admin](http://loacalhost:8000/admin)  
@@ -76,5 +76,5 @@ GET http://localhost:8000/employees/delete/<id:int>
 
 ## Run tests
 ``` bash
-    python3 manage.py test employees
+python3 manage.py test employees
 ```
